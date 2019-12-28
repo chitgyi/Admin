@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "11293968396",
+    "firebase_url": "https://cooking-guide-1f2c6.firebaseio.com",
+    "project_id": "cooking-guide-1f2c6",
+    "storage_bucket": "cooking-guide-1f2c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11293968396:android:94ffd886f1d1a9d99ec629",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11293968396-rufhg3antk6uhnk6hnv954qjpod58ra9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Zhr9U8gC2eg2Crxol0O2G4_0I8gmM5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11293968396-rufhg3antk6uhnk6hnv954qjpod58ra9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11293968396:android:81e186c0a54ebdef9ec629",
+        "android_client_info": {
+          "package_name": "com.example.cooking_guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11293968396-rufhg3antk6uhnk6hnv954qjpod58ra9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Zhr9U8gC2eg2Crxol0O2G4_0I8gmM5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11293968396-rufhg3antk6uhnk6hnv954qjpod58ra9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11293968396:android:7221d2cba7b60b719ec629",
+        "android_client_info": {
+          "package_name": "cya.cooking.guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11293968396-rufhg3antk6uhnk6hnv954qjpod58ra9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Zhr9U8gC2eg2Crxol0O2G4_0I8gmM5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11293968396-rufhg3antk6uhnk6hnv954qjpod58ra9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
