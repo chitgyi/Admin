@@ -117,7 +117,7 @@ class _AddFoodState extends State<AddFood> {
               height: 5.0,
             ),
             TextField(
-              maxLines: 9,
+              maxLines: 10,
               controller: _bodyController,
               decoration: InputDecoration(
                   border: OutlineInputBorder(), labelText: 'Post Body'),
@@ -151,12 +151,8 @@ class _AddFoodState extends State<AddFood> {
                       url: url);
                   pr.hide();
                   if (ref.documentID != null) {
-                    Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                            builder: (cxt) => MyHomePage(
-                                  title: "Admin",
-                                )));
+                    Navigator.pushReplacement(context,
+                        MaterialPageRoute(builder: (cxt) => MyHomePage()));
                   }
 
                   // setState(() {

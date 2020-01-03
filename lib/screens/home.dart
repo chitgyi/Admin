@@ -15,13 +15,16 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder(
-      stream: Firestore.instance.collection("posts").snapshots(),
+      stream: Firestore.instance
+          .collection("posts")
+          .orderBy("date", descending: true)
+          .snapshots(),
       builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
         if (!snapshot.hasData) {
           return Center(
             child: Text("Loading..."),
           );
-        }else if(snapshot.data.documents.length < 1){
+        } else if (snapshot.data.documents.length < 1) {
           return Center(
             child: Text("No Data Here!"),
           );

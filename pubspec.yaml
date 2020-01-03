@@ -12,6 +12,10 @@ dependencies:
   firebase_auth: ^0.15.3
   cloud_firestore: ^0.13.0+1
   provider: ^3.2.0
+  flutter_screenutil: ^0.5.3
+  intl: ^0.15.7
+  mvc_pattern: ^3.4.3
+  splashscreen: ^1.2.0
   awesome_dialog: ^0.1.0
   progress_dialog: ^1.2.0
   cupertino_icons: ^0.1.2
@@ -27,7 +31,7 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-   - assets/logo.png
+   - assets/images/logo.png
   #  - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   

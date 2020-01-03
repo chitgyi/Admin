@@ -1,5 +1,4 @@
 import 'package:admin/components/progress_dialog.dart';
-import 'package:admin/main.dart';
 import 'package:admin/models/menu_item.dart';
 import 'package:admin/models/posts.dart';
 import 'package:admin/services/data.dart';
@@ -137,12 +136,7 @@ class _EditFoodState extends State<EditFood> {
                         desc: 'Your data is updated!',
                         dismissOnTouchOutside: false,
                         btnOkOnPress: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (cxt) => MyHomePage(
-                                        title: "Admin",
-                                      )));
+                          Navigator.pop(context);
                         }).show();
                   }
                 },
