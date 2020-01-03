@@ -7,7 +7,7 @@ Cooking Guide For U
 This project is a starting point for a cooking application.
 
 - To cook easily 
-- To advoid food allergiesq
+- To advoid food allergies
 - To make cooking with experience
 
 ## Developing Mode
